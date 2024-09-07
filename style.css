@@ -88,8 +88,63 @@ li{
     display: flex;
     flex-direction: column;
 }
-.cycling h2{
+.cycling h2, .golf h2, .swimming h2, .track h2, .weight h2{
     text-align: center;
+}
+.golf{
+    background: url('images/golf.jpg') no-repeat;
+    width:  400px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+.swimming{
+    background: url('images/swimming.jpg') no-repeat;
+    width:  400px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+.tennis{
+    background: url('images/tennis.jpg') no-repeat;
+    width:  400px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+.track{
+    background: url('images/track.jpg') no-repeat;
+    width:  400px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+.weight{
+    background: url('images/weight.jpg') no-repeat;
+    width:  400px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
 }
 .subscription{
     display: flex;
@@ -272,4 +327,36 @@ a{
   .testimonials-div h4{
     text-align: center;
     font-size: 24px;
+  }
+  .banner{
+    background: url('/images/banner.jpg') no-repeat;
+    background-size: cover;
+    width: 1400px;
+    height: 450px;
+    margin-left: 15%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+
+    
+    color: white;
+  }
+  .banner-head h2{
+  padding-right: 120px;
+  padding-top: 180px;
+  font-size: 30px;
+  text-align: right;
+
+  font-weight: 500;
+  }
+  .banner-btn{
+   margin-top: 30px;
+   margin-left: 63%;
+  }
+  .banner-btn button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
   }
